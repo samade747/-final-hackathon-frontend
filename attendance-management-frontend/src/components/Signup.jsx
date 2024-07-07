@@ -1,0 +1,12 @@
+// src/components/Auth/Signup.jsx
+import React from 'react';
+
+const Signup = () => {
+  return (
+    <div>
+      <h1>Signup Page</h1>
+    </div>
+  );
+};
+
+export default Signup;
