@@ -1,0 +1,63 @@
+.otpmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  height: 78vh;
+  background: var(--background-color); /* Set the background color based on the current theme */
+}
+
+.otp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px; /* Increased width for the OTP box */
+  padding: 30px; /* Increased padding for a better look */
+  background: var(--secondary-color); /* Set the card background color based on the current theme */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slightly increased shadow for a better effect */
+}
+
+.otpTitle {
+  font-size: 28px; /* Slightly larger font size */
+  font-weight: 700;
+  margin-bottom: 25px; /* Increased margin for better spacing */
+  color: var(--xl-text-color); /* Set the title text color based on the current theme */
+}
+
+.otpDesc {
+  font-size: 18px; /* Slightly larger font size */
+  margin-bottom: 25px; /* Increased margin for better spacing */
+  color: var(--base-text-color); /* Set the description text color based on the current theme */
+}
+
+.otpInput {
+  width: 100%; /* Set to full width */
+  height: 45px; /* Slightly increased height */
+  border-radius: 5px;
+  border: 1px solid var(--border-color-inverted); /* Set the border color based on the current theme */
+  padding: 0 15px; /* Increased padding for better input space */
+  margin-bottom: 25px; /* Increased margin for better spacing */
+  font-size: 16px;
+  background-color: var(--input-background); /* New variable for input background color */
+  color: var(--text-color-inverted); /* Set the input text color based on the current theme */
+  outline: none; /* Removed outline */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Slight inner shadow for depth */
+}
+
+.otpBtn {
+  width: 100%; /* Set to full width */
+  height: 45px; /* Slightly increased height */
+  border-radius: 5px;
+  border: none;
+  background-color: var(--primary-color); /* Set the button background color based on the current theme */
+  color: var(--light-color); /* Set the button text color based on the current theme */
+  font-size: 16px;
+  cursor: pointer;
+  transition: var(--default-transition);
+}
+
+.otpBtn:hover {
+  background-color: var(--primary-color-dark); /* Set the button hover background color based on the current theme */
+}
